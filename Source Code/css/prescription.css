@@ -1,0 +1,62 @@
+.column form label{
+    font-weight: bold;
+    font-size: 1.2em;
+    color: white;
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5 );
+  }
+  
+  input[type=text], label[for=fileToUpload]{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    outline: none;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: 0.5s;
+  }
+
+  label[for=fileToUpload]:hover{
+    box-shadow: none;
+    cursor: pointer;
+    background-color: rgba(0, 128, 128, 0.651);
+    transition: 0.5s;
+  }
+
+  input[type=submit] {
+    background: linear-gradient(to bottom right, #27bbaf, #3ff1e3);
+    color: white;
+    padding: 8px 18px;
+    border: none;
+    margin-top: 7px;
+    border-radius: 10px;
+    font-size: 1.3em;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    outline: none;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #67d4cb;
+  }
+
+  .column {
+    background-color: rgba(0, 138, 138, 0.89);
+    backdrop-filter: blur(20px);
+    border: 5px solid rgba(255, 255, 255, 0.5);
+    border-right: 5px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 5px solid rgba(255, 255, 255, 0.2);
+    margin: auto;
+    display: block;
+    width: 40%;
+    padding: 0px 20px;
+    margin-bottom: 3%;
+  }
+
+  .column h1{
+    color: white;
+    text-align: center;
+    padding: 0 5px;
+  }
